@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <!-- display two Button's and a FrameLayout to replace the Fragment's  -->
+    <Button
+        android:id="@+id/firstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Fragment"
+
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/secondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Second Fragment"
+
+        android:textSize="20sp" />
+    <!--
+    Read these links :
+     https://stackoverflow.com/questions/17495199/why-is-a-framelayout-used-for-fragments
+    https://developer.android.com/reference/android/widget/FrameLayout
+
+    FrameLayout is designed to block out an area on the screen to display a single item.
+    Main purpose of frame layout is to block the area required to fit the largest child view.
+    If you use a Frame Layout as Fragment Container you can ensure that you always have the space available
+    to accommodate the largest fragment layout.-->
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"/>
+</LinearLayout>

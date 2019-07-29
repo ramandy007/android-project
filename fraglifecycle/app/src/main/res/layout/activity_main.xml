@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/GotoSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Communication"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/secondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="Second Fragment"
+
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/thirdFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="thirdFragment"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <fragment
+            android:id="@+id/fragment1"
+            class="com.example.fraglifecycle.frag1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+
+            />
+    </FrameLayout>
+
+
+</LinearLayout>
