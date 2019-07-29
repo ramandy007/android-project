@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">context_menu2</string>
+    <string name="guide">click here </string>
+    <string name="help">help</string>
+    <string name="more_help">more help</string>
+    <string name="even_more_help">even more help</string>
+    <string name="give_up">I give UP</string>
+
+
+</resources>
