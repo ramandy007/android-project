@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Integr</string>
+    <string name="title_activity_sql">sql</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bluetooth">Bluetooth</string>
+    <string name="title_activity_cam">Cam</string>
+    <string name="title_activity_alert_dialog">AlertDialog</string>
+    <string-array name="color">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+</resources>

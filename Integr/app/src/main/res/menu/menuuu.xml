@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/help"
+        android:title="help"/>
+    <item
+        android:id="@+id/more_help"
+        android:title="more_help"/>
+    <item
+        android:id="@+id/even_more_help"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="even_more_help">
+        <menu>
+            <item
+                android:id="@+id/give_up"
+                android:title="/give_up"/>
+        </menu>
+    </item>
+
+</menu>

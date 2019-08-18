@@ -14,15 +14,17 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-
+import java.util.ArrayList;
 
 
 public class frag1 extends Fragment implements View.OnClickListener {
 
 EditText name,movie,color;
 Button add,show;
+Communicactor comm;
 
 SQLiteDatabase db;
+public  ArrayList<String> i = new ArrayList<>();
 
     public frag1() {
         // Required empty public constructor
@@ -55,6 +57,11 @@ SQLiteDatabase db;
 
     @Override
     public void onClick(View v) {
+
+        if(comm==null){
+            comm=(Communicactor)getActivity();
+
+        }
     if (v==add){
         if(name.getText().toString().trim().length()==0 || color.getText().toString().trim().length()==0|| movie.getText().toString().trim().length()==0){
             showMessage("Error", "Please enter all values");
@@ -81,6 +88,12 @@ SQLiteDatabase db;
             name.setText(c.getString(0));
             movie.setText(c.getString(2));
             color.setText(c.getString(1));
+            i.add(c.getString(0));
+            i.add(c.getString(2));
+            i.add(c.getString(1));
+            Log.i("frag1 arraylist",i.toString());
+            comm.respond(i);
+
         } else {
             showMessage("Error", "Invalid name");
             clearText();

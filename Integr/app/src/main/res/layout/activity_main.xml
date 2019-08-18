@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_sql"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQL"
+                />
+            <Button
+                android:id="@+id/btn_dfrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dynamic Frag"
+                />
+            <Button
+                android:id="@+id/btn_sfrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Static Frag"
+                />
+            <Button
+                android:id="@+id/btn_btooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth"
+                />
+            <Button
+                android:id="@+id/btn_cam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                />
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                />
+            <Button
+                android:id="@+id/btn_sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMS"
+                />
+            <Button
+                android:id="@+id/btn_browse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Browse"
+                />
+            <Button
+                android:id="@+id/btn_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                />
+            <Button
+                android:id="@+id/btn_ADialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert Dialog"
+                />
+            <Button
+                android:id="@+id/btn_eIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explicit Intent with return"
+                />
+            <Button
+                android:id="@+id/btn_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image"
+                />
+            <Button
+                android:id="@+id/btn_gridV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grid View"
+                />
+            <Button
+                android:id="@+id/btn_spinn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spinner / Toggle Button"
+                />
+            <Button
+                android:id="@+id/btn_acTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Complete Text View"
+                />
+            <Button
+                android:id="@+id/btn_listV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List View"
+                />
+            <Button
+                android:id="@+id/btn_custLV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom List View"
+                />
+            <Button
+                android:id="@+id/btn_dynRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dynamic RadioButton"
+                />
+            <Button
+                android:id="@+id/btn_etcbrb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EditText / CheckBox / RadioButton"
+                />
+            <Button
+                android:id="@+id/btn_sis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saved Instance State"
+                />
+            <Button
+                android:id="@+id/btn_actLifeCycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activity Lifecycle"
+                />
+            <Button
+                android:id="@+id/btn_onClickList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="on Click Listeners"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
