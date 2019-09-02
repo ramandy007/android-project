@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "399416871547",
+    "firebase_url": "https://transport-luggage.firebaseio.com",
+    "project_id": "transport-luggage",
+    "storage_bucket": "transport-luggage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399416871547:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399416871547-iqmdfmq1ln96j16vsgf4gj8mbncf3ufs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "d3fbc680d32cdc2a23914974e91274ad6ccaa22b"
+          }
+        },
+        {
+          "client_id": "399416871547-jaoht34l46v9ovgplq3i6podr5pmnqbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzZk--2U7xejrQFzm4r632lLSVT6RrdLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399416871547-jaoht34l46v9ovgplq3i6podr5pmnqbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
