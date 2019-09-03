@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -56,7 +57,7 @@ class User{
 }
 
 public class signup extends AppCompatActivity implements View.OnClickListener {
-Button sign;
+ImageView sign;
 EditText nameEditText,emailEditText,passwordEditText,dobEditText,mobileEditText,addressEdittext,institutionEdittext;
 private FirebaseAuth mauth;
 ProgressDialog progressDialog ;
@@ -71,14 +72,14 @@ FirebaseDatabase database = FirebaseDatabase.getInstance();
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        nameEditText=findViewById(R.id.editText3);
-        emailEditText=findViewById(R.id.editText4);
+        nameEditText=findViewById(R.id.name);
+        emailEditText=findViewById(R.id.email);
         passwordEditText=findViewById(R.id.password);
-        dobEditText=findViewById(R.id.editText5);
-        mobileEditText=findViewById(R.id.editText6);
-        addressEdittext=findViewById(R.id.editText7);
-        institutionEdittext=findViewById(R.id.editText8);
-        sign=findViewById(R.id.button2);
+        dobEditText=findViewById(R.id.date);
+        mobileEditText=findViewById(R.id.phonenumber);
+        addressEdittext=findViewById(R.id.address);
+        institutionEdittext=findViewById(R.id.institution);
+        sign=findViewById(R.id.imageView);
         mauth=FirebaseAuth.getInstance();
         mDatabase = database.getReference("users");
         progressDialog=new ProgressDialog(this);

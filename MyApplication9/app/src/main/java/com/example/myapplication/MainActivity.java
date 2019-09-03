@@ -14,8 +14,8 @@ Button b,sign;
         super.onCreate(savedInstanceState);
         // uncomment this for horizontal scrollview
         setContentView(R.layout.activity_main);
-        b=findViewById(R.id.login);
-        sign=findViewById(R.id.sign);
+        b=findViewById(R.id.loginB);
+        sign=findViewById(R.id.registerB);
         //uncomment this for vertical scroll view
         //setContentView(R.layout.vertical_scroll_view);
         b.setOnClickListener(new View.OnClickListener() {
